@@ -16,7 +16,7 @@ The pretty printer is a tool that formats JavaScript and TypeScript code to impr
     - **Comment Placement (commentPlacement):**  Controls whether comments are placed before or after the code they relate to.
     - **Comment Format (commentFormat):**  Specifies the format for different comment types, including multiline, single-line, HTML, and JSDoc comments. 
     - **Comment Types (commentTypes):**  Allows the user to specify which comment types to include in the output.
-* **Comment Extraction:**  **Utilizes the `collectComments` function from the comment extraction library (provided in previous responses) to accurately identify and extract comments from the code.**
+* **Comment Extraction:**  **Utilizes the `collectComments` function from the comment extraction library to accurately identify and extract comments from the code.**
 * **Comment Formatting:**  Formats comments based on the chosen `commentFormat` option, mimicking the style of Prettier.
 * **AST Handling:** Uses a custom AST structure (provided in previous responses) to represent the code. This AST is optimized for efficiency and flexibility.
 
